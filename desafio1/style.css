@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #9C6EFF;
+}
+
+body {
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom left , rgba(255,0,0,0), #412D6A);
+  opacity: 100%;
+}
+
+.container h1{
+	z-index: 1;
+	background-color: transparent;
+	color: #FFFFFF;
+	margin-top: 20px;
+}
+
+.container .card{
+	z-index: 1;
+	background-color: transparent;
+	display: flex;
+	flex-direction: column;
+}
+
+.container .card h3{
+	background-color: transparent;
+	color: #412D6A;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.container .card .fields {
+	width: 100%;
+	background-color: transparent;
+	margin: 0px;
+}
+
+.container .card input {
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container .card input::placeholder {
+  color: #FFFFFF;
+	opacity: 20%;
+}
+
+
+
+.container .card .btn {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background-color: transparent;
+	margin-top: 20px;
+}
+
+.container .card .btn button{
+  background-color: transparent;
+	color: #FFFFFF;
+  cursor: pointer;
+  width: 180px;
+  height: 30px;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  text-align: center;
+	text-transform: uppercase;
+}
+
+.container .card .btn button:hover {
+  background-color: #412D6A;
+}

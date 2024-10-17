@@ -50,8 +50,8 @@ body {
   text-align: center;
   font-size: 16px;
   text-transform: uppercase;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 .container .card .fields {
@@ -73,14 +73,12 @@ body {
   opacity: 20%;
 }
 
-
-
 .container .card .btn {
   display: flex;
   justify-content: center;
   width: 100%;
   background-color: transparent;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .container .card .btn button{

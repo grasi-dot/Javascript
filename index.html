@@ -4,40 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Curso JavaScript</title>
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="stylesheet" href="desafio2/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="desafio3/style.css">
 </head>
 <body>
-
   <div class="container">
     <div class="main">
-      <div class="textBox">
-        <h2> Criar Conta </h2>
-        <div class="fields">
-          <i class='bx bxs-user' ></i>
-          <input type="text" id="name" placeholder="Nome e sobrenome:">
-        </div>
-        <div class="fields">
-          <i class='bx bxs-envelope'></i>
-          <input type="text"  id="email" name="email" placeholder="Email:">
-        </div>
-        <div class="fields">
-          <i class='bx bxs-lock'></i>
-          <input type="password" id="password" name="password" placeholder="Senha:">
-        </div>
-        <div class="fields">
-            <i class='bx bxs-key'></i>
-            <input type="password" id="password_check" name="password_check" placeholder="Confirme a senha:">
-        </div>
-        <div class="btn">
-          <button id="signup">Cadastrar</button>
-        </div>
+      <h1>Gerador de Tabuada</h1>
+      <div class="fields">
+        <label for="number" >Digite o numero da tabuada:</label>
+        <input type="number" id="number" id="number" value="0">
       </div>
-      <div class="imgBox">
-        <img src="./desafio2/img/Devices-rafiki.png" alt="imagem">
+      <div class="btn">
+        <button id="calculateBtn">Calcular</button>
+      </div>
+      <div class="table">
+        <table id="tabuada">
+          <thead>
+            <tr>
+              <td>Número</td>
+              <td>&nbsp;</td>
+              <td>Multiplicador</td>
+              <td>&nbsp;</td>
+              <td>Resultado</td>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
       </div>
     </div>
   </div>
-  <script src="desafio2/script.js"></script>
+  <script src="desafio3/script.js"></script>
 </body>
 </html>
